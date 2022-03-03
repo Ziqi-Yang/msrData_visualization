@@ -9,3 +9,7 @@ Used dataset: [MSRAction3DSkeletonReal3D.rar](https://uowmailedu-my.sharepoint.c
 ![](./assert/dataExplaination.jpg)
 对应到正常坐标系下
 ![](./assert/dataExplaination2.png)
+和`matplolib`的`ax3d`对应关系:
+$$X_{matplotlib} = Z_{msr}$$
+$$Y_{matplotlib} = X_{msr}$$
+$$Z_{matplotlib} = Y_{msr}$$
