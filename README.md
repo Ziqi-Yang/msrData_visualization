@@ -14,6 +14,9 @@ $$X_{matplotlib} = Z_{msr}$$
 $$Y_{matplotlib} = X_{msr}$$
 $$Z_{matplotlib} = Y_{msr}$$
 
+## requirements
+you need first install `ffmpeg` on your system and export it to the envirnomnet variable.
+
 ## Usage
 
 ``` python
