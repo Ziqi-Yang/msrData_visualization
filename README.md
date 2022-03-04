@@ -13,3 +13,10 @@ Used dataset: [MSRAction3DSkeletonReal3D.rar](https://uowmailedu-my.sharepoint.c
 $$X_{matplotlib} = Z_{msr}$$
 $$Y_{matplotlib} = X_{msr}$$
 $$Z_{matplotlib} = Y_{msr}$$
+
+## Usage
+
+``` python
+python main.py ./msrData/xxxx.txt
+```
+
