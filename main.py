@@ -5,7 +5,7 @@ import numpy as np
 import sys
 import os
 
-def genVideo(dataPath:str):
+def genVideo(dataPath:str,showXYZ=True):
     fName = "".join(os.path.basename(dataPath).split(".")[:-1])
     exportName = fName + ".mp4"
 
@@ -34,9 +34,10 @@ def genVideo(dataPath:str):
     ax.set_xticklabels([])
     ax.set_yticklabels([])
     ax.set_zticklabels([])
-    # ax.set_xlabel("x")
-    # ax.set_ylabel("y")
-    # ax.set_zlabel("z")
+    if showXYZ:
+        ax.set_xlabel("x")
+        ax.set_ylabel("y")
+        ax.set_zlabel("z")
     ax.view_init(vertical_axis="x")
 
     draw_sequences = np.array([ # 人体骨骼框架连线
